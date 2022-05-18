@@ -4,6 +4,7 @@ KEYWORD="a"
 
 if [[ "$#" -eq "0" ]]; then
 	echo "$0 String-to-search"
+	echo "Since no string was provided, we will see how many itterations needed to get letter a"
 else
 	KEYWORD="$1"
 fi
